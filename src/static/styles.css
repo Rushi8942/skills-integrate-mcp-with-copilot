@@ -1,3 +1,32 @@
+/* Toolbar styles */
+#activities-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 1em;
+  background: #f7f7f7;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+#activities-toolbar label {
+  font-weight: 500;
+  margin-right: 0.25em;
+}
+
+#activities-toolbar select,
+#activities-toolbar input[type="text"] {
+  padding: 0.3em 0.6em;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+#activities-toolbar input[type="text"] {
+  min-width: 180px;
+}
 * {
   box-sizing: border-box;
   margin: 0;
